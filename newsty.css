@@ -1,0 +1,196 @@
+
+body {font-family: "Montserrat", sans-serif;}
+* {box-sizing: border-box;}
+
+/* html {
+  font-family: "Montserrat", sans-serif;
+} */
+/* .bg-img { */
+  /* The image used */
+  /* <!-- background-image: url("img_nature.jpg"); -->
+
+  <!-- min-height: 380px; -->
+
+  /* Center and scale the image nicely */
+  /* <!-- background-position: center; -->
+  <!-- background-repeat: no-repeat; -->
+  <!-- background-size: cover; --> */
+
+  /* Needed to position the navbar */
+  /* <!-- position: relative; --> */
+/* } */
+
+/* Position the navbar container inside the image */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scrollbar-color: #03a9fc #000;
+  scrollbar-width: thin;
+  background-color: none;
+}
+.background{
+  position: relative;
+  top: 0px;
+  left: 0%;
+  background-color: black;
+  /* height: 1000px */
+}
+/* .background img{
+  height: 10vh;
+  width: 10%;
+} */
+
+.navigator{
+  background-color: none;
+  position: absolute;
+  top: 1vh;
+  margin-left: 900px
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2px;
+  padding-top: 1%;
+  padding-left: 10px;
+  padding-right: 0%;
+  /* left: 20px; */
+  background-color: none;
+  position: static;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+nav ul li a{
+  /* font-family: ; */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 100%;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color: green;
+}
+#myVideo {
+  /* <!-- top: 100px; -->
+  <!-- position: relative; --> */
+  right: 0;
+  padding-bottom: 1000px;
+  max-width: 100%;
+  max-height: 10%;
+}
+
+#myVideo1 {
+  /* <!-- top: 100px; -->
+  <!-- position: relative; --> */
+  padding-right: 50%;
+  padding-bottom: -100%;
+  max-width: 100%;
+  /* max-height: 10%; */
+  margin-bottom: 80%;
+}
+
+
+/* .last{
+  height: 100%;
+} */
+
+.a{
+  width: 100%;
+  height: 50%;
+
+}
+
+img {
+   filter: brightness(60%);
+}
+
+video {
+   filter: brightness(70%);
+}
+
+.bsbx{
+  margin-top: 120%;
+  padding-top: 50%;
+  margin-left: 0%;
+  width: 70%;
+  height: 30%;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  /* border-radius: 10%; */
+}
+
+.bsbx1{
+  margin-top: 120%;
+  padding-top: 50%;
+  margin-left: 0%;
+  width: 70%;
+  height: 30%;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  /* border-radius: 10%; */
+}
+
+
+.bsbx2{
+  margin-top: 160%;
+  padding-top: 10%;
+  margin-left: -130%;
+  width: 135%;
+  height: 3%;
+  background-color: none;
+  z-index: 1;
+  position: absolute;
+  /* border-radius: 10%; */
+}
+
+
+.wbbx{
+  margin-top: -40%;
+  position: inherit;
+  /* margin-top: %; */
+  padding-top: 50%;
+  margin-left: -99%;
+  width: 254%;
+  /* height: 0%; */
+  background-color: white;
+  z-index: -1;
+  /* border-radius: 10%; */
+
+}
+/*
+.btn{
+  background-color: red;
+  /* margin-bottom: 10 */
+
+
+/* } */
+
+
+.lf11{
+  margin-top: 35%;
+  padding-left: -20;
+  padding-bottom: 50%;
+  width: 50%;
+  margin-left: 50%
+}
+
+.img1{
+  margin-left: 33%;
+  width: 50%;
+}
+/* .h3{ */
+  /* font-size: 75%; */
+  /* position: ; */
+  /* align-content: center; */
+  /* padding-left: 50%; */
+  /* margin-bottom: 50%; */
+  /* } */
